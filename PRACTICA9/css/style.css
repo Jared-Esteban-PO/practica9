@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+article{
+    background-color: rgb(105, 197, 197);
+}
+nav{
+    background-color: black;
+}
+footer{
+    height: 65  px;
+    padding:  10px;
+    padding-top: 10px;
+    text-align: center;
+}

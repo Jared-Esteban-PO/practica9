@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Practica 9</title>
+    <style>
+        body {
+            background-color: rgb(5, 63, 63); /* Fondo azul */
+            color: #000000; /* Texto blanco */
+        }
+
+        .container {
+            padding: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="galeria.html">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <article class="container mt-4">
+        <h1>Temas informaticos</h1>
+        <p>Ofrecemos una amplia gama de servicios y productos que abarcan desde desarrollo de software personalizado y consultoría en TI hasta servicios de ciberseguridad y gestión de infraestructura de TI. Trabajamos estrechamente con nuestros clientes para comprender sus necesidades y proporcionar soluciones a medida que les permitan destacar en un mundo cada vez más digital.</p>
+        <center><h3>Desarrolladores:</h3></center>
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Paterno</th>
+                    <th scope="col">Materno</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Jared</td>
+                    <td>Esteban</td>
+                    <td>López</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Adriana</td>
+                    <td>Gonzalez</td>
+                    <td>Estrada</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Carlos</td>
+                    <td>Sánchez</td>
+                    <td>Días</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Compiladores</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Funciones Principales de los Compiladores</h6>
+                        <p class="card-text"><b>Análisis Léxico:</b> Escanea el código fuente y divide el programa en tokens, como palabras clave, identificadores y operadores.</p>
+                        <br>
+                        <p class="card-text"><b>Análisis Sintáctico:</b>Verifica que la estructura del programa siga las reglas gramaticales del lenguaje de programación. Crea un árbol de sintaxis abstracta. </p>
+                        <br>
+                        <p class="card-text"><b>Análisis Semántico: </b>Comprueba que el programa tenga un significado coherente y que las variables y operaciones sean utilizadas de manera apropiada. </p>
+                        <a href="https://developer.mozilla.org/es/docs/Glossary/Compile"class="btn btn-primary">Link 1</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Contabilidad</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">funciones principales de la contabilidad</h6>
+                        <p class="card-text"><b>Registro de transacciones: </b>La contabilidad registra todas las transacciones financieras de una empresa, como ventas, compras, gastos, ingresos y movimientos de activos y pasivos. Esto se hace mediante la elaboración de registros contables, como libros diarios y mayores. </p>
+                        <br>
+                        <p class="card-text"><b>Clasificación y categorización: </b>La contabilidad clasifica y categoriza las transacciones en diferentes cuentas para organizar la información.  </p>
+                        <br>
+                        <p class="card-text"><b>Medición y valuación: </b>La contabilidad ayuda a medir y valorar los activos, pasivos y otros elementos financieros de una empresa. Esto incluye la valoración de inventarios, la depreciación de activos fijos y la estimación de provisiones para deudas incobrables.</p>
+                        <br>
+                        <a href="https://www.cesuma.mx/blog/conceptos-basicos-y-objetivos-de-la-contabilidad.html#:~:text=La%20contabilidad%20consiste%20en%20la,t%C3%A9rminos%20financieros%20en%20una%20empresa." class="btn btn-primary">Link 2</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Base de Datos</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">funciones princiapales de Base de Datos</h6>
+                        <p class="card-text"><b>Almacenamiento de Datos: </b>La función principal de una base de datos es almacenar grandes cantidades de datos de manera estructurada y organizada. Esto permite que la información sea accesible y gestionable. </p>
+                        <br>
+                        <p class="card-text"><b>Recuperación de Datos:  </b>Las bases de datos permiten recuperar datos de manera eficiente utilizando consultas y búsquedas. Los usuarios pueden obtener la información que necesitan rápidamente. </p>
+                        <br>
+                        <p class="card-text"><b>Actualización de Datos: </b>Las bases de datos permiten la inserción, modificación y eliminación de datos de forma controlada. Esto garantiza que la información esté actualizada y precisa. </p>
+                        <br>
+                        <a href="https://www.oracle.com/mx/database/what-is-database/" class="btn btn-primary">Link 3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Información de contacto</h4>
+                    <p>Francisco I. Madero, Diana Laura, 29067 Tuxtla Gutiérrez, Chis.</p>
+                    <p>Teléfono: (+52) 968 122 64 58</p>
+                    <p>Correo electrónico: harvey.esteban88@unach.mx</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>Sígueme en mis redes sociales</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.facebook.com/harveyjared.estebanlopez?locale=es_LA" class="text-white">Facebook</a></li>
+                        <li><a href="#" class="text-white">Twitter</a></li>
+                        <li><a href="#" class="text-white">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
